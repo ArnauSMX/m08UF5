@@ -1,0 +1,36 @@
+body{
+    color: purple;
+    background-color: chartreuse;
+}
+p {
+    color:red;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+img{
+    width:900px;
+    height: 300px;
+}
+table, td, th{
+    border: 3px solid white;
+    border-collapse: collapse;
+    text-align: center;
+}
+td{
+    background-color: gold;
+}
+th{
+    background-color: cyan;
+}
+
+.tamanyoimagen
+{
+    width: 130px;
+    height: 130px;
+}
+.fondoblanco
+{
+    background-color: white;
+    color: black;
+}
