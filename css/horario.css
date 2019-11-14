@@ -1,0 +1,41 @@
+body{
+    background-color: khaki;
+    text-align: center;
+}
+table, td, th{
+    border: 5px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+.EIE
+{
+    background-color: aquamarine
+}
+.Tutoria
+{
+    background-color: chocolate
+}
+.Aplicacions
+{
+    background-color: deepskyblue
+}
+.Seguretat
+{
+    background-color: lightcoral
+}
+.Serveis
+{
+    background-color: violet
+}
+.Sistemes
+{
+    background-color: springgreen
+}
+.Patio
+{
+    background-color: orange
+}
+.time
+{
+    background-color: olive
+}
