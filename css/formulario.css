@@ -7,3 +7,37 @@ legend{
     font-weight: bold;
     text-decoration: underline;
 }
+
+#total
+{
+    background-color: lightcyan;
+}
+
+#personal
+{
+    background-color: lightsalmon;
+}
+
+#nacionalidad
+{
+    background-color: lightgreen;
+}
+
+#estudios
+{
+    background-color: lightpink;
+}
+
+#idiomas
+{
+    background-color: lightblue;
+}
+
+#botones
+{
+    background-color: lightgray;
+}
+
+body{
+    background-color: lightyellow;
+}
