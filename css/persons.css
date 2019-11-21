@@ -1,0 +1,113 @@
+body{
+    text-align: center;
+    background-color: lightyellow;    
+}
+
+h1{
+    font-weight: bold;
+    text-decoration: underline;
+    color: brown;
+    font-size: 62px;
+}
+
+table {
+    margin: auto;
+    border: 3px solid black;
+}
+
+th, td{
+    border: 2px solid black;
+}
+
+#mcgregortable{
+    font-family: 'Alatsi', sans-serif;    
+    background-color: lightsalmon;
+}
+#mcgregorcap{
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 20px;
+}
+#mcgregordesc
+{
+    width: 600px;
+}
+#mcgregorimg{
+    width: 450px;
+    height: 350px;
+}
+.mcgregor
+{
+    text-indent: 0.5em;
+}
+
+
+
+#adesanyatable{
+    font-family: 'Quicksand', sans-serif;
+    background-color: lightcyan;
+}
+#adesanyacap{
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 20px;
+}
+#adesanyadesc
+{
+    width: 600px;
+}
+#adesanyaimg{
+    width: 500px;
+    height: 350px;
+}
+.adesanya
+{
+    text-indent: 0.5em;
+}
+
+
+
+#jonestable{
+    font-family: 'Anton', sans-serif;
+    background-color: lightgreen;
+}
+#jonescap{
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 20px;
+}
+#jonesdesc
+{
+    width: 600px;
+}
+#jonesimg{
+    width: 500px;
+    height: 350px;
+}
+.jones
+{
+    text-indent: 0.5em;
+}
+
+
+#miocictable{
+    font-family: 'Roboto Mono', monospace;
+    background-color: lightpink;
+}
+#miociccap{
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 20px;
+}
+#miocicdesc
+{
+    width: 600px;
+}
+#miocicimg{
+    width:400px;
+    height: 450px;
+}
+.miocic
+{
+    text-indent: 0.5em;
+}
