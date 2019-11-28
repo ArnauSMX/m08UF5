@@ -1,0 +1,145 @@
+#global{
+    width: 600px;
+    height: 600px;
+    position: relative;
+}
+
+div{
+    border: 2px solid white;
+}
+
+
+#div1{
+background: url(../imatges/espacio.jpg);
+width: 399px;
+height: 99px;
+position: absolute;
+background-repeat: no-repeat;
+background-size: 399px 99px;
+}
+
+#div2{
+    background: url(../imatges/supernova.jpg);
+    width: 198px;
+    height: 99px;
+    position: absolute;
+    top: 0px;
+    left: 400px;
+    background-repeat: no-repeat;
+    background-size: 198px 99px;
+}
+
+#div3{
+    background: url(../imatges/vacio.gif);
+    width: 199px;
+    height: 199px;
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    background-size: 199px 199px;
+    background-repeat: no-repeat;
+}
+
+#div4{
+    background: url(../imatges/mcgregor3.gif);
+    width: 199px;
+    height: 299px;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#div5{
+    background: url(../imatges/espacio.jpg);
+    width: 198px;
+    height: 99px;
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    background-repeat: no-repeat;
+    background-size: 198px 99px;
+}
+
+#div6{
+    background: url(../imatges/supernova.jpg);
+    width: 198px;
+    height: 99px;
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    background-repeat: no-repeat;
+    background-size: 198px 99px;
+}
+
+#div7{
+    background: url(../imatges/espacio.jpg);
+    width: 199px;
+    height: 99px;
+    position: absolute;
+    top: 300px;
+    left: 0px;
+    background-size: 199px 99px;
+    background-repeat: no-repeat;
+}
+
+#div8{
+    background: url(../imatges/vacio.gif);
+    width: 198px;
+    height: 199px;
+    position: absolute;
+    top: 300px;
+    left: 400px; 
+    background-repeat: no-repeat;
+    background-size: 198px 199px;
+}
+
+#div9{
+    background: url(../imatges/vacio.gif);
+    width: 199px;
+    height: 198px;
+    position: absolute;
+    top: 400px;
+    left: 0px;
+    background-size: 199px 198px;
+    background-repeat: no-repeat;
+}
+
+#div10{
+    background: url(../imatges/supernova.jpg);
+    width: 199px;
+    height: 99px;
+    position: absolute;
+    top: 400px;
+    left: 200px;
+    background-repeat: no-repeat;
+    background-size: 199px 99px;
+}
+
+#div11{
+    background: url(../imatges/supernova.jpg);
+    width: 199px;
+    height: 98px;
+    position: absolute;
+    top: 500px;
+    left: 200px; 
+    background-size: 199px 98px;
+    background-repeat: no-repeat;
+}
+
+#div12{
+    background: url(../imatges/espacio.jpg);
+    width: 198px;
+    height: 98px;
+    position: absolute;
+    top: 500px;
+    left: 400px;
+    background-repeat: no-repeat;
+    background-size: 198px 98px;
+}
+
+.interior:hover{
+    opacity: 0.7;
+    border: 5px solid yellow;
+}
