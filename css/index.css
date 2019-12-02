@@ -5,6 +5,7 @@
     position: absolute;
     top: 0px;
     left: 0px;
+    border: 2px solid black;
 }
 
 #llama{
@@ -30,9 +31,75 @@
 }
 
 #menu{
-    width: 350px;
-    height: 650px;
+    /*width: 350px;*/
+    width: 20%;
+    height: 600px;
     position: absolute;
-    top: 23.5%;
+    top: 23.75%;
     left: 0%;
+    font-size: 20px;
+    background-color: lightgoldenrodyellow;
+}
+
+#menu2, #indice{
+    border: 2px solid black;
+    width: 350px;
+    height: 600px;
+    background-color: lightgoldenrodyellow;
+}
+
+td{
+    border: 2px solid black;
+    background-color: lightcyan;
+}
+
+#menuright{
+   /* width: 350px;*/
+   width: 20%;
+   height: 600px;
+    position: absolute;
+    top: 23.75%;
+    left: 83.5%;
+    background-color: lightgoldenrodyellow;
+    border: 2px solid black;
+}
+
+#mcgregorpng{
+    /*width: 350px;*/
+    width: 100%;
+    height: 100%;
+}
+
+#divbody{
+    position: absolute;
+    top: 23.75%;
+    left: 350px;
+    right: 350px;
+    /*width: 1440px;*/
+    width: 60%;
+    height: 600px;
+    border: 2px solid black;
+    background-color: lightblue;
+}
+
+#text{
+    text-align: justify;
+    font-size: 22px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#bottomdiv{
+    left: 0%;
+    right: 0%;
+    top: 86.25%;
+    position: absolute;
+    border: 2px solid black;
+    width: 100%;
+    height: 500px;
+}
+
+#imgvalid{
+    width: 100%;
+    height: 500px;
 }
