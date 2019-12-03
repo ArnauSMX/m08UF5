@@ -1,3 +1,5 @@
+
+
 #top{
     background-color: lightsalmon;
     width: 100%;
@@ -44,7 +46,7 @@
 #menu2, #indice{
     border: 2px solid black;
     width: 350px;
-    height: 600px;
+    height: 603px;
     background-color: lightgoldenrodyellow;
 }
 
@@ -52,9 +54,12 @@ td{
     border: 2px solid black;
     background-color: lightcyan;
 }
+td:hover {
+    background-color: lightgreen;
+}
 
 #menuright{
-   /* width: 350px;*/
+    /*width: 450px;*/
    width: 20%;
    height: 600px;
     position: absolute;
@@ -76,7 +81,7 @@ td{
     left: 350px;
     right: 350px;
     /*width: 1440px;*/
-    width: 60%;
+    width: 65%;
     height: 600px;
     border: 2px solid black;
     background-color: lightblue;
@@ -84,7 +89,7 @@ td{
 
 #text{
     text-align: justify;
-    font-size: 22px;
+    font-size: 20px;
     padding-left: 8px;
     padding-right: 8px;
 }
@@ -92,7 +97,7 @@ td{
 #bottomdiv{
     left: 0%;
     right: 0%;
-    top: 86.25%;
+    top: 88%;
     position: absolute;
     border: 2px solid black;
     width: 100%;
@@ -102,4 +107,8 @@ td{
 #imgvalid{
     width: 100%;
     height: 500px;
+}
+
+.indice:hover{
+    background-color: lightgreen;
 }
