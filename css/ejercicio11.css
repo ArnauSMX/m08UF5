@@ -70,6 +70,7 @@
     background-image: linear-gradient(to left, green, blue);
     text-align: left;
     color: white;
+    transform: rotate(20deg);
   }
 
   #shadow1 {
@@ -112,3 +113,75 @@
 .grad {
     font-family: FuenteAclonica;
   }
+
+  #trans1{
+    background-color: lightskyblue;
+    border: 1px solid black;
+    width: 250px;
+    height: 150px;
+    transform: translate(50px, 100px);
+  }
+
+  #trans2{
+    background-color: lightskyblue;
+    border: 1px solid black;
+    width: 250px;
+    height: 150px;
+    transform: rotate(20deg);
+  }
+
+  #trans3{
+    background-color: lightskyblue;
+    border: 1px solid black;
+    width: 250px;
+    height: 150px;
+    transform: scale(0.5, 0.5);
+  }
+
+  #transfor1{
+    background-color: coral;
+    width: 300px;
+    height: 200px;
+
+  }
+
+  #transfor1:hover{
+    width: 100px;
+  height: 100px;
+  background: red;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+  animation-name: arnau;
+  animation-duration: 4s;
+  }
+
+@keyframes arnau {
+  from {background-color: coral;}
+  to {background-color: red;}
+}
+
+#anim1{
+  background-color: red;
+  width: 250px;
+  height: 200px;
+  animation-name: ex8;
+  animation-duration: 4s;
+  animation-iteration-count: 3;
+  position: relative;
+}
+
+@keyframes ex8 {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+#ex9{
+  column-count: 3;
+  border: 1px solid black;
+  column-rule-style: solid;
+  column-rule-width: 1px;
+  column-rule-color: lightblue;
+}
