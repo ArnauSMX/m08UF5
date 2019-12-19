@@ -3,6 +3,10 @@
     border-collapse: collapse;
 }
 
+th{
+    background-color: gray;
+}
+
 .img1{
     width: 250px;
     height: 250px;
@@ -29,7 +33,8 @@
         margin-left: auto;
         margin-right: auto;
         width: 250px;
-        height: 250px;   
+        height: 250px;
+        transition: 2s; 
         transform:scale(1.2);
         -ms-transform:scale(1.2); // IE 9 
         -moz-transform:scale(1.2); // Firefox 
@@ -59,7 +64,7 @@
     margin-left: auto;
     margin-right: auto;
 }
-    .img3{
+    #img3{
         -webkit-border-radius: 10px;
         -moz-border-radius: 10px;
         border-radius: 10px;
@@ -68,6 +73,7 @@
         margin-left: auto;
         margin-right: auto;
         width: 100%;   
+        transition: 1s;
         transform:scale(1);
         -ms-transform:scale(1); // IE 9 
         -moz-transform:scale(1); // Firefox 
@@ -76,9 +82,9 @@
         -webkit-transition: all 500ms ease-in-out; // IE 9
         -moz-transition: all 500ms ease-in-out; // Firefox
         -ms-transition: all 500ms ease-in-out; // Safari and Chrome 
-        -o-transition: all 500ms ease-in-out; // Opera       
+        -o-transition: all 500ms ease-in-out; // Opera     
     }      
-    .text2{
+    #text{
         font-family: 'Open Sans';
         padding-top: 5px;
         display:block;
@@ -90,20 +96,82 @@
         -ms-transition: all 500ms ease-in-out;
         -o-transition: all 500ms ease-in-out;
         opacity: 0;
-        transition: transfom opacity 1.5s;
+        transition: 1s;
     }
-    .div-img2{
-        
-    .img3:hover{
+    
+    #img3:hover{
             transform:scale(0.8);
             -ms-transform:scale(0.8); // IE 9 
             -moz-transform:scale(0.8); // Firefox 
             -webkit-transform:scale(0.8); // Safari and Chrome 
             -o-transform:scale(0.8); // Opera
+
         }
-        .text2:hover{
+    #img3:hover ~ #text{
             transform:translate(0px,-20px);
             opacity: 1;
-        
         }
-    }
+
+
+        .div-img3{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+           .div-img3 .img6{
+                display:block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 250px;
+                height: 250px;
+                transition: 2s;
+                transform: rotate(0deg);
+                -webkit-transform: rotate(0deg); // IE 9
+                -moz-transform: rotate(0deg); // Firefox
+                -o-transform: rotate(0deg); // Safari and Chrome
+                -ms-transform: rotate(0deg); // Opera
+                -webkit-transition: all 500ms ease-in-out; // IE 9
+                -moz-transition: all 500ms ease-in-out; // Firefox
+                -ms-transition: all 500ms ease-in-out; // Safari and Chrome 
+                -o-transition: all 500ms ease-in-out; // Opera    
+            }      
+            .div-img3 .img6:hover{
+                    transform: rotate(-20deg);
+                    -webkit-transform: rotate(-20deg); // IE 9
+                    -moz-transform: rotate(-20deg); // Firefox
+                    -o-transform: rotate(-20deg); // Safari and Chrome
+                    -ms-transform: rotate(-20deg); // Opera
+            }
+
+
+            .div-img11{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+                .div-img11.hidden{
+                      overflow: hidden;
+                  }
+                .img11{
+                    display:block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 100%;
+                    transition: 2s;  
+                    transform:scale(1);
+                    -ms-transform:scale(1); // IE 9 
+                    -moz-transform:scale(1); // Firefox 
+                    -webkit-transform:scale(1); // Safari and Chrome 
+                    -o-transform:scale(1); // Opera 
+                    -webkit-transition: all 500ms ease-in-out; // IE 9
+                    -moz-transition: all 500ms ease-in-out; // Firefox
+                    -ms-transition: all 500ms ease-in-out; // Safari and Chrome 
+                    -o-transition: all 500ms ease-in-out; // Opera       
+                }        
+                .div-img11 .img11:hover{
+                        transform:scale(1.2);
+                        -ms-transform:scale(1.2); // IE 9 
+                        -moz-transform:scale(1.2); // Firefox 
+                        -webkit-transform:scale(1.2); // Safari and Chrome 
+                        -o-transform:scale(1.2); // Opera
+                    }
