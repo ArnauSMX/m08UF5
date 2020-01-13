@@ -1,24 +1,31 @@
 .c1{
-    border: 1px solid black;
+    border: 2px solid white;
     background-color: green;
 }
 
 .c2{
-    border: 1px solid black;
+    border: 2px solid white;
     background-color: red;
 }
 
-.c2-1{
-    border: 1px solid black;
+.c2-2{
+    border: 2px solid white;
     background-color: purple;
 }
 
 .c3{
-    border: 1px solid black;
+    border: 2px solid white;
     background-color: red;
 }
 
 .c3-1{
-    border: 1px solid black;
+    border: 2px solid white;
     background-color: salmon;
+    height: 100px;
+}
+
+.c4-1{
+    border: 2px solid white;
+    background-color: blue;
+    height: 50px;
 }
