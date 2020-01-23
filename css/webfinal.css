@@ -11,3 +11,66 @@
     width: 100%;
     height: 750px;
 }
+
+#menu1{
+    /*width: 350px;*/
+    height: 1210px;
+    /*position: absolute;*/
+
+    font-size: 20px;
+text-align: center;
+border: 2px solid black;
+}
+
+#divbody{
+    position: absolute;
+    /*top: 23.75%;*/
+    left: 465px;
+    right: 460px;
+    /*width: 1440px;*/
+
+    /*height: 600px;*/
+    height: 1210px;
+    border: 2px solid black;
+    background-color: lightgoldenrodyellow;
+}
+
+#menuright{
+    /*width: 450px;*/
+   /*height: 600px;*/
+    /*top: 23.75%;*/
+    left: 49%;
+    background-color: rgb(230, 7, 7);
+    border: 2px solid black;
+    color: white;
+    text-align: center;
+}
+#text{
+    text-align: justify;
+    font-size: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin: 3px;
+}
+
+.sponsorsimg{
+    width: 300px;
+    height: 175px;
+}
+
+#nav2{
+    background-color: #3a3636;
+}
+
+.textnav2{
+    color: white;
+}
+
+.nav{
+    height: 75px;
+}
+
+.pieimg{
+    width: 50px;
+    height: 50px;
+}
