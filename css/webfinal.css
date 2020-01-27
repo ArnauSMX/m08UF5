@@ -45,7 +45,7 @@ border: 2px solid black;
     color: white;
     text-align: center;
 }
-#text{
+.text{
     text-align: justify;
     font-size: 20px;
     padding-left: 8px;
@@ -73,4 +73,19 @@ border: 2px solid black;
 .pieimg{
     width: 50px;
     height: 50px;
+}
+
+#mcgregor_final{
+    width: 435px;
+    height: 205px;
+}
+
+#adesanya_final{
+    width: 600px;
+    height: 400px;
+}
+
+#octagono_final{
+    width: 850px;
+    height: 500px;
 }
